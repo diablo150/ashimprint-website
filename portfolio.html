@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/stylepages.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="icon" href="favicon.ico">
+  <title>AshimPrint - Наши работы</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <div class="header-top__left">
+          <a href="#">Часы работы: Пн. - Сб. (с 10:00 до 19:00)</a>
+          <a href="https://docs.google.com/spreadsheets/d/1lqATiLkuQ8V-8oO3619jeFy6h3JkplPI/edit?usp=sharing&ouid=117268051003896553101&rtpof=true&sd=true">Цены</a>
+          <a href="https://go.2gis.com/uyvvk">На карте</a>
+        </div>
+        <div class="header-top__right">
+          <div class="header-top__instagram">
+            <p>Мы в соцсетях!</p>
+            <a href="https://www.instagram.com/ashimprint_kz/"><img src="assets/icons/instagram-icon.svg" alt="Instagram" width="25"></a>
+          </div>
+          <div class="header-top__whatsapp">
+            <p>Чат в Whatsapp</p>
+            <a href="https://wa.me/77017327354"><img src="assets/icons/whatsapp-icon.svg" alt="Whatsapp" width="25"></a>
+          </div>
+        </div>
+      </div>
+      <div class="header-middle">
+        <div class="header-middle__logo">
+          <a href="index.html" class="logo-link">
+            <img src="assets/logo/logo.svg" alt="Logo">
+          </a>
+        </div>
+        <div class="header-middle__address">
+          <div class="address-icon">
+            <img src="assets/icons/location-icon.svg" alt="Location" width="25">
+          </div>
+          <div class="header-middle__address-group">
+            <p>г. Алматы, ул. Макатаева 127/3</p>
+            <p>ashimprint@mail.ru</p>
+          </div>
+        </div>
+        <div class="header-middle__numbers">
+          <div class="phone-icon">
+            <img src="assets/icons/phone-icon.svg" alt="Phone" width="25">
+          </div>
+          <div class="header-middle__numbers-group">
+            <a href="tel:+77017327354">+7 (701) 732-73-54</a>
+            <a href="tel:+77714454805">+7 (771) 445-48-05</a>
+          </div>
+        </div>
+        <div class="header-middle__button">
+          <button class="header-middle__button-cta" data-toggle="modal" data-target="#requestFormModal">
+            Оставить заявку
+          </button>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto flex-spaced">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Услуги
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="advertising.html">Наружная и внутренняя реклама</a>
+                <a class="dropdown-item" href="printing.html">Широкоформатная печать</a>
+                <a class="dropdown-item" href="multicam.html">Фрезерно-гравировальные услуги</a>
+                <a class="dropdown-item" href="posm.html">Рекламно-торговое оборудование</a>
+                <a class="dropdown-item" href="sublimation.html">Сублимационная печать</a>
+                <a class="dropdown-item" href="polygraphy.html">Полиграфия</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">О компании</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="upper-section">
+    <div class="upper-container">
+      <div class="upper-section__text">
+        <h1 class="upper-section__h1">Наше портфолио</h1>
+        <p>Здесь представлены некоторые из наших работ. <br> Мы всегда соблюдаем сроки и
+          ставим цели клиента в первую очередь!</p>
+      </div>
+    </div>
+  </div>
+  <div class="image-section">
+    <div class="upper-container">
+      <img src="assets/images/333.jpg" alt="Portfolio Image">
+      <button id="downloadPresentation" class="button">Скачать презентацию</button>
+    </div>
+  </div>
+
+
+
+  <!-- Portfolio Section -->
+  <section class="portfolio-section py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Здесь мы будем добавлять карточки с работами -->
+        <!-- Пример карточки: -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/1.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>Alma College</h4>
+              <p>Пресс-стена</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/2.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>UIB</h4>
+              <p>Баннеры</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/3.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>Фильм "Дос Мукасан"</h4>
+              <p>Пресс-стена к премьере фильма</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/4.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>TAU Turan</h4>
+              <p>Образовательно-оздоровительный комплекс "Тау Туран"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/5.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>Университет Туран</h4>
+              <p>Пресс-стена</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/6.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>Бизнес Форум</h4>
+              <p>Пресс-стена</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/7.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>Объемные буквы</h4>
+              <!-- <p>Проект</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/8.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>Amanat</h4>
+              <p>Пресс-стена</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/9.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <!-- <h4>Название проекта</h4>
+              a
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/10.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>Лайтбокс буквы</h4>
+              <p>Печать букв с лайтбоксом</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/11.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <!-- <h4>Название проекта</h4>
+              <p>Описание проекта</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/12.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <!-- <h4>Название проекта</h4>
+              <p>Описание проекта</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/13.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <!-- <h4>Название проекта</h4>
+              <p>Описание проекта</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/14.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>Гос. символика</h4>
+              <p>Печать государственной символики</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/15.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>MyCar</h4>
+              <p>Рекламный баннер</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/16.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <!-- <h4>Название проекта</h4>
+              <p>Описание проекта</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/17.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <h4>Объемные буквы</h4>
+              <p>Изготовление объемных букв</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/18.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+              <!-- <h4>Название проекта</h4>
+              <p>Описание проекта</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/19.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/20.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/21.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/22.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/23.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/24.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/25.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="portfolio-card">
+            <img src="assets/images/portfolio/26.jpg" alt="Portfolio Item 1" class="img-fluid">
+            <div class="portfolio-hover">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Modal Form -->
+  <div class="modal fade" id="requestFormModal" tabindex="-1" aria-labelledby="requestFormModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content contact-form">
+            <div class="modal-header">
+                <h5 class="modal-title title" id="requestFormModalLabel">Свяжитесь с нами</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="description">Заполните форму и мы свяжемся с вами в ближайшее время.</p>
+                <form action="mail.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" name="name" placeholder="Имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control rounded border-white mb-3 form-input" id="number" name="number" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Ваш запрос"></textarea>
+                    </div>
+                    <div class="submit-button-wrapper">
+                        <input type="submit" value="Отправить">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Footer Section -->
+  <section class="footer-section">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-start">
+          <a href="index.html">
+            <img src="assets/logo/logo-footer.svg" alt="AshimPrint Logo">
+          </a>
+          <p>AshimPrint - Лучшие рекламные решения</p>
+          <button data-toggle="modal" data-target="#requestFormModal">Срочный заказ</button>
+        </div>
+        <div class="footer-pages">
+          <h4>Каталог</h4>
+          <a href="printing.html">Наружная и внутренняя реклама</a>
+          <a href="printing.html">Широкоформатная печать</a>
+          <a href="multicam.html">Фрезерно-гравировальные услуги</a>
+          <a href="posm.html">Рекламно-торговое оборудование</a>
+          <a href="sublimation.html">Сублимационная печать</a>
+          <a href="polygraphy.html">Полиграфия</a>
+        </div>
+        <div class="footer-company">
+          <h4>Компания</h4>
+          <a href="index.html">Главная</a>
+          <a href="about.html">О нас</a>
+          <a href="portfolio.html">Портфолио</a>
+          <a href="contacts.html">Контакты</a>
+          <a href="https://almaty.hh.kz/employer/5833588">Вакансии</a>
+        </div>
+        <div class="footer-address">
+          <h2>г. Алматы, ул. Макатаева 127/1</h2>
+          <p>Пн. - Сб. (с 10:00 до 19:00)</p>
+          <h2>+7 701 732 73 54</h2>
+          <h2>+7 771 445 48 05</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Phone Widget -->
+  <div class="phone-widget"><a href="tel:+77017327354"><div class="phoneicon"><img src="" alt=""></div></a></div>
+  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <script>
+    document.getElementById('downloadPresentation').addEventListener('click', function() {
+      window.open('https://drive.google.com/file/d/1ZvoqshYVSmd7TeX-l2N4j2R3nhTeu_Xz/view?usp=drive_link', '_blank');
+    });
+  </script>
+  
+  <script>
+    $(document).ready(function () {
+      $('form').submit(function (event) {
+        event.preventDefault();
+        $('.contact-form').html('<div class="modal-body"><p>Спасибо! Мы свяжемся с вами в ближайшее время.</p></div>');
+        var formData = $(this).serialize();  
+        $.ajax({
+          type: 'POST',
+          url: 'mail.php',
+          data: formData,
+          success: function (response) {
+            console.log('Сообщение отправлено успешно');
+          },
+          error: function () {
+            console.log('Ошибка при отправке сообщения');
+          }
+        });
+      });
+    });
+  </script>   
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script>
+    let lastScrollTop = 0;
+    window.addEventListener("scroll", function() {
+      var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScroll > lastScrollTop){
+        document.querySelector('.header').classList.add('header-hidden');
+      } else {
+        document.querySelector('.header').classList.remove('header-hidden');
+      }
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+    }, false);
+  </script>
+</body>
+</html>

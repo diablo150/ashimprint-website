@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/stylepages.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="icon" href="favicon.ico">
+  <title>AshimPrint - Полиграфия</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <div class="header-top__left">
+          <a href="#">Часы работы: Пн. - Сб. (с 10:00 до 19:00)</a>
+          <a href="https://docs.google.com/spreadsheets/d/1lqATiLkuQ8V-8oO3619jeFy6h3JkplPI/edit?usp=sharing&ouid=117268051003896553101&rtpof=true&sd=true">Цены</a>
+          <a href="https://go.2gis.com/uyvvk">На карте</a>
+        </div>
+        <div class="header-top__right">
+          <div class="header-top__instagram">
+            <p>Мы в соцсетях!</p>
+            <a href="https://www.instagram.com/ashimprint_kz/"><img src="assets/icons/instagram-icon.svg" alt="Instagram" width="25"></a>
+          </div>
+          <div class="header-top__whatsapp">
+            <p>Чат в Whatsapp</p>
+            <a href="https://wa.me/77017327354"><img src="assets/icons/whatsapp-icon.svg" alt="Whatsapp" width="25"></a>
+          </div>
+        </div>
+      </div>
+      <div class="header-middle">
+        <div class="header-middle__logo">
+          <a href="index.html" class="logo-link">
+            <img src="assets/logo/logo.svg" alt="Logo">
+          </a>
+        </div>
+        <div class="header-middle__address">
+          <div class="address-icon">
+            <img src="assets/icons/location-icon.svg" alt="Location" width="25">
+          </div>
+          <div class="header-middle__address-group">
+            <p>г. Алматы, ул. Макатаева 127/3</p>
+            <p>ashimprint@mail.ru</p>
+          </div>
+        </div>
+        <div class="header-middle__numbers">
+          <div class="phone-icon">
+            <img src="assets/icons/phone-icon.svg" alt="Phone" width="25">
+          </div>
+          <div class="header-middle__numbers-group">
+            <a href="tel:+77017327354">+7 (701) 732-73-54</a>
+            <a href="tel:+77714454805">+7 (771) 445-48-05</a>
+          </div>
+        </div>
+        <div class="header-middle__button">
+          <button class="header-middle__button-cta" data-toggle="modal" data-target="#requestFormModal">
+            Оставить заявку
+          </button>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto flex-spaced">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Услуги
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="advertising.html">Наружная и внутренняя реклама</a>
+                <a class="dropdown-item" href="printing.html">Широкоформатная печать</a>
+                <a class="dropdown-item" href="multicam.html">Фрезерно-гравировальные услуги</a>
+                <a class="dropdown-item" href="posm.html">Рекламно-торговое оборудование</a>
+                <a class="dropdown-item" href="sublimation.html">Сублимационная печать</a>
+                <a class="dropdown-item" href="polygraphy.html">Полиграфия</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">О компании</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Upper section -->
+  <div class="upper-section">
+    <div class="upper-container">
+      <div class="upper-section__text">
+        <h1 class="upper-section__h1">Полиграфия</h1>
+        <p>Позвольте вашим идеям засиять с нашей полиграфией! С нами ваши рекламные материалы, буклеты, визитки или любые другие изделия будут выглядеть безупречно.</p>
+      </div>
+    </div>
+  </div>
+  <div class="image-section">
+    <div class="upper-container">
+      <img src="assets/images/6.jpg" alt="Portfolio Image">
+      <button class="center-button">Заказать</button>
+    </div>
+  </div>
+  
+  <section class="polygraphy-section">
+    <div class="container">
+      <h2 class="polygraphy-h2">Полиграфические услуги</h2>
+      <p class="polygraphy-p">Позвольте вашим идеям засиять с нашей полиграфией! С нами ваши рекламные материалы, буклеты, визитки или любые другие изделия будут выглядеть безупречно. Обратитесь к нам уже сегодня, и дайте миру увидеть ваше творчество в лучшем свете!</p>
+      <h3 class="polygraphy-h3">Что мы предлагаем?</h3>
+      <p class="polygraphy-p"><span class="dot"></span>Высококачественную печать на различных материалах: от бумаги до текстиля.</p>
+      <p class="polygraphy-p"><span class="dot"></span>Индивидуальный подход к каждому клиенту.</p>
+      <p class="polygraphy-p"><span class="dot"></span>Современное оборудование, гарантирующее четкость и яркость каждого оттиска.</p>
+      <p class="polygraphy-p"><span class="dot"></span>Быстрый оборот заказов благодаря профессиональной команде специалистов.</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section class="footer-section">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-start">
+          <a href="index.html">
+            <img src="assets/logo/logo-footer.svg" alt="AshimPrint Logo">
+          </a>
+          <p>AshimPrint - Лучшие рекламные решения</p>
+          <button data-toggle="modal" data-target="#requestFormModal">Срочный заказ</button>
+        </div>
+        <div class="footer-pages">
+          <h4>Каталог</h4>
+          <a href="printing.html">Наружная и внутренняя реклама</a>
+          <a href="printing.html">Широкоформатная печать</a>
+          <a href="multicam.html">Фрезерно-гравировальные услуги</a>
+          <a href="posm.html">Рекламно-торговое оборудование</a>
+          <a href="sublimation.html">Сублимационная печать</a>
+          <a href="polygraphy.html">Полиграфия</a>
+        </div>
+        <div class="footer-company">
+          <h4>Компания</h4>
+          <a href="index.html">Главная</a>
+          <a href="about.html">О нас</a>
+          <a href="portfolio.html">Портфолио</a>
+          <a href="contacts.html">Контакты</a>
+          <a href="https://almaty.hh.kz/employer/5833588">Вакансии</a>
+        </div>
+        <div class="footer-address">
+          <h2>г. Алматы, ул. Макатаева 127/1</h2>
+          <p>Пн. - Сб. (с 10:00 до 19:00)</p>
+          <h2>+7 701 732 73 54</h2>
+          <h2>+7 771 445 48 05</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Phone Widget -->
+  <div class="phone-widget"><a href="tel:+77017327354"><div class="phoneicon"><img src="" alt=""></div></a></div>
+  <!-- Modal Form -->
+  <div class="modal fade" id="requestFormModal" tabindex="-1" aria-labelledby="requestFormModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content contact-form">
+            <div class="modal-header">
+                <h5 class="modal-title title" id="requestFormModalLabel">Свяжитесь с нами</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="description">Заполните форму и мы свяжемся с вами в ближайшее время.</p>
+                <form action="mail.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" name="name" placeholder="Имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control rounded border-white mb-3 form-input" id="number" name="number" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Ваш запрос"></textarea>
+                    </div>
+                    <div class="submit-button-wrapper">
+                        <input type="submit" value="Отправить">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- JS -->
+  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Modal Success Form -->
+  <script>
+    $(document).ready(function () {
+      $('form').submit(function (event) {
+        event.preventDefault();
+        $('.contact-form').html('<div class="modal-body"><p>Спасибо! Мы свяжемся с вами в ближайшее время.</p></div>');
+        var formData = $(this).serialize();  
+        $.ajax({
+          type: 'POST',
+          url: 'mail.php',
+          data: formData,
+          success: function (response) {
+            console.log('Сообщение отправлено успешно');
+          },
+          error: function () {
+            console.log('Ошибка при отправке сообщения');
+          }
+        });
+      });
+    });
+  </script>   
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:15,
+      nav:false,
+      autoplay: true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:4
+          }
+      }
+    })
+    $('.custom-next').click(function() {
+        $('.owl-carousel').trigger('next.owl.carousel');
+    });
+    $('.custom-prev').click(function() {
+        $('.owl-carousel').trigger('prev.owl.carousel');
+    });
+  </script>
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script>
+    let lastScrollTop = 0;
+    window.addEventListener("scroll", function() {
+      var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScroll > lastScrollTop){
+        document.querySelector('.header').classList.add('header-hidden');
+      } else {
+        document.querySelector('.header').classList.remove('header-hidden');
+      }
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+    }, false);
+  </script>
+</body>
+</html>
